@@ -40,7 +40,7 @@ let getDataSource = (req,res)=>{
     res.status(200).json(response);
 }
 
-//! this gets one the data Sources from DB
+//! this gets one data Sources from DB
 let getOneDataSource = (req,res)=>{
     let response = {
         "DataUrl":"http://localhost:9191/test",
@@ -54,7 +54,7 @@ let getOneDataSource = (req,res)=>{
 
 //! this updates the data Sources in DB
 let updateOneDataSource = (req,res)=>{
-    
+    //! TO-DO update the data when the 
     res.status(200).json('Successfully updated one data Sources');
 }
 
